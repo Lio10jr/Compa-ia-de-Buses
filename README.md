@@ -1,27 +1,49 @@
-# Practica Buses - Kevin Zambrano Macas
+# Compañia de buses
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.1.
+El proyecto esta orientado a gestionar buses, choferes, tripulacion, viajes y reportes de cada bus. Se lleva un control de los buses sus rutas y su disponibilidad.
 
-## Development server
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/3ea5a5e8-0d96-4377-b995-e820b0156963" alt="Login" style="width: 32%; height: auto;"/>
+  <img src="https://github.com/user-attachments/assets/4e608f65-52ea-43f6-a1a7-681fcc4a5072" alt="Vista de Lugares" style="width: 32%; height: auto;"/>
+  <img src="https://github.com/user-attachments/assets/eb56715d-d709-4bfb-aaf0-cc198db5d15a" alt="Vista de un lugar" style="width: 32%; height: auto;"/>
+</div>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características
 
-## Code scaffolding
+- **Gestión Choferes:** CRUD de choferes.
+- **Gestión Buses:** CRUD  de buses.
+- **Gestión Tripulación:** CRUD de tripulación con sus choferes.
+- **Gestión Viajes:** Realiza un viaje de cun bus con su tripulacion hacia un destino y confirma su llegada.
+- **Gestión Reportes:** Total de viajes y promedio de viajes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologías Utilizadas
 
-## Build
+- **Frontend:** Angular y Bootstrap
+- **Servicios:** Listas Estáticas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Instalación
 
-## Running unit tests
+Sigue los pasos a continuación para configurar y ejecutar el proyecto en tu entorno local.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### 1. Clonar el Repositorio
 
-## Running end-to-end tests
+  ```bash
+  git clone https://github.com/Lio10jr/Compania-de-Buses.git
+  ```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### 2. Configuración
 
-## Further help
+Instala las dependencias:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  ```bash
+  npm i
+  ```
+
+### 2. Configuración del Angular
+
+Ejecuta la aplicación Ionic en tu navegador:
+
+  ```bash
+  ng serve
+  ```
+La aplicación estará disponible en `http://localhost:4200`.
